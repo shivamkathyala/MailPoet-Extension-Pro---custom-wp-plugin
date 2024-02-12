@@ -1,0 +1,137 @@
+
+/*table_css_startt*/
+#wpcontent {
+    height: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.export-btn-mep {
+    padding: 9px 15px;
+    background: #0047ff;
+    color: #fff;
+    border-radius: 5px;
+    border: 1px solid #0047ff;
+    cursor: pointer;
+    transition: .3s;
+}
+.export-btn-mep:hover {
+    background: none #777!important;
+    border-color: #777!important;
+}
+.export-mep {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dataTables_wrapper .dataTables_length select {
+    border: 1px solid #aaa;
+    border-radius: 3px;
+    padding: 5px;
+    background-color: transparent;
+    color: inherit;
+    padding: 0px 12px 0px 5px;
+}
+
+.wp-core-ui select {
+    font-size: 14px !important;
+    padding: 0 13px 0 5px !important;
+    min-height: 30px !important;
+    max-width: 5rem !important;
+    -webkit-appearance: none !important;
+    background: #fff url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20width%3D%2220%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22M5%206l5%205%205-5%202%201-7%207-7-7%202-1z%22%20fill%3D%22%23555%22%2F%3E%3C%2Fsvg%3E') no-repeat right 2px top 54% !important;
+    background-size: 11px 11px !important;
+}
+
+#all-subscriber-mep-table_wrapper {
+    margin-top: 20px;
+}
+#all-subscriber-mep-table {
+    padding-top: 20px !important;
+    margin-bottom: 12px;
+}
+
+#all-subscriber-mep-table th.sorting::before {
+    opacity: 9 !important;
+    filter: invert(0);
+}
+
+#all-subscriber-mep-table tbody tr:hover {
+    background: #0047ff0d !important;
+}
+
+#all-subscriber-mep-table th {
+    background: #0047ff !important;
+    color: #fff;
+}
+
+#all-subscriber-mep-table th.sorting_desc:after{
+       opacity: 0.7 !important;
+}
+
+#all-subscriber-mep-table tbody tr {
+    height: 50px !important;
+    background: #fff !important;
+}
+
+#all-subscriber-mep-table .dataTable tbody th, #all-subscriber-mep-table .dataTable tbody td {
+    padding: 8px 10px;
+    border-bottom: 1px solid #d9d9d9;
+}
+
+/*LOGO_CSS*/
+#adminmenu .wp-menu-image img {
+    padding: 9px 0px 0 !important;
+    opacity: 2.6 !important;
+    width: 38px !important;
+}
+
+#all-subscriber-mep-table_filter input {
+    height: 33px;
+    background: #fff;
+    border: 1px solid #d7d7d7;
+}
+
+.all-subscriber-mep-list-main-heading {
+    background: linear-gradient(to right, #777777, #d5d5d5), linear-gradient(to right, #0047ff, #0047ff, #0047ff);
+    background-size: 100% 0.1em, 0 0.1em;
+    background-position: 100% 100%, 0 100%;
+    background-repeat: no-repeat;
+    color: #0047ff;
+    font-size: 29px;
+    text-transform: uppercase;
+    line-height: 53px;
+    transition: background-size 400ms;
+}
+.all-subscriber-mep-list-main-heading:hover, .all-subscriber-mep-list-main-heading:focus {
+  background-size: 0 0.1em, 100% 0.1em;
+}
+
+#all-subscriber-mep-table tbody td {
+    color: #000;
+    border-bottom: 1px solid #d9d9d9;
+}
+#all-subscriber-mep-table_length label {
+    color: #000 !important;
+    font-weight: 600;
+}
+#all-subscriber-mep-table_filter label {
+    color: #000;
+    font-weight: 600;
+}
+#all-subscriber-mep-table_info {
+    font-weight: 600;
+    color: #000;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button.current, .dataTables_wrapper .dataTables_paginate .paginate_button.current:hover{
+    background: #0047ff !important;
+    color: #fff !important;
+}
+
+#all-subscriber-mep-table_previous, a#all-subscriber-mep-table_next {
+    color: #000;
+    font-weight: 600;
+}
+/*table_css_END*/

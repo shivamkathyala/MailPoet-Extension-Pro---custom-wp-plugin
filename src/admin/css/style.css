@@ -1,0 +1,137 @@
+/* subscribe form css */
+.fname-mep input, .email-mep input, .lname-mep input, .address-mep textarea {
+    box-sizing: border-box;
+    outline: 0;
+    padding: 9px 10px !important;
+    color: #444;
+    background: none #fff;
+    transition: border-color 0.4s ease;
+    border: 1px solid #ccc;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    -webkit-appearance: none;
+    width: 100%;
+}
+
+.button-mep input {
+    width: 100%;
+    padding: 12px 10px !important;
+    background: #0047ff;
+    color: #fff;
+    border: 1px solid #0047ff;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: .3s;
+    font-weight: 700;
+    display: block;
+    border-radius: 5px;
+}
+
+.button-mep input:hover {
+    background: none #777!important;
+    color: #fff!important;
+    box-shadow: none!important;
+    border-color: #777;
+}
+
+.fname-mep, .address-mep, .email-mep, .lname-mep {
+    margin-bottom: 15px;
+}
+
+.error-mep {
+    color: #f90000;
+    font-size: 14px;
+}
+
+
+/*table_css_startt*/
+#wpcontent {
+    height: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.export-btn-mep {
+    padding: 9px 15px;
+    background: #0047ff;
+    color: #fff;
+    border-radius: 5px;
+    border: 1px solid #0047ff;
+    cursor: pointer;
+}
+
+.export-mep {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dataTables_wrapper .dataTables_length select {
+    border: 1px solid #aaa;
+    border-radius: 3px;
+    padding: 5px;
+    background-color: transparent;
+    color: inherit;
+    padding: 0px 12px 0px 5px;
+}
+
+.wp-core-ui select {
+    font-size: 14px !important;
+    padding: 0 13px 0 5px !important;
+    min-height: 30px !important;
+    max-width: 5rem !important;
+    -webkit-appearance: none !important;
+    background: #fff url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20width%3D%2220%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22M5%206l5%205%205-5%202%201-7%207-7-7%202-1z%22%20fill%3D%22%23555%22%2F%3E%3C%2Fsvg%3E') no-repeat right 2px top 54% !important;
+    background-size: 11px 11px !important;
+}
+
+#all-subscriber-mep-table_wrapper {
+    margin-top: 20px;
+}
+table#all-subscriber-mep-table {
+    padding-top: 20px !important;
+}
+table#all-subscriber-mep-table th.sorting::before {
+    opacity: 9 !important;
+    filter: invert(0);
+}
+
+table#all-subscriber-mep-table tbody tr:hover {
+    background: #0047ff0d !important;
+}
+
+table#all-subscriber-mep-table th {
+    background: #0047ff !important;
+    color: #fff;
+}
+
+table#all-subscriber-mep-table th.sorting_desc:after{
+       opacity: 0.7 !important;
+}
+table#all-subscriber-mep-table tbody tr {
+    height: 50px !important;
+    background: #fff !important;
+}
+
+table.dataTable tbody th, table.dataTable tbody td {
+    padding: 8px 10px;
+    border-bottom: 1px solid #d9d9d9;
+}
+
+/*LOGO_CSS*/
+#adminmenu .wp-menu-image img {
+    padding: 9px 0 0 !important;
+    opacity: 2.6 !important;
+    width: 34px !important;
+} 
+
+#all-subscriber-mep-table_filter input {
+    height: 33px;
+    background: #fff;
+    border: 1px solid #d7d7d7;
+}
+
+/*table_css_END*/
